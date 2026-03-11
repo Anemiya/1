@@ -2,6 +2,22 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
     }
+@media (max-width: 768px) {
+
+  body{
+    padding:20px;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  img{
+    max-width:100%;
+    height:auto;
+  }
+
+}
 /* main styles */
 .main{
     display: flex;
@@ -227,4 +243,5 @@ margin-left: 17px;
     line-height: 24px;
 
 }
+
 
